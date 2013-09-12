@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.tuna.nic.NICInterpreterTest" duration-ms="332" started-at="2013-09-11T15:35:14Z" finished-at="2013-09-11T15:35:14Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="332" started-at="2013-09-11T15:35:14Z" finished-at="2013-09-11T15:35:14Z">
+      <class name="com.tuna.nic.NICInterpreterTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.tuna.nic.NICInterpreterTest@5823cfcf]" name="setUpClass" is-config="true" duration-ms="36" started-at="2013-09-11T21:05:14Z" finished-at="2013-09-11T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="testInterpret_1()[pri:0, instance:com.tuna.nic.NICInterpreterTest@5823cfcf]" name="testInterpret_1" duration-ms="249" started-at="2013-09-11T21:05:14Z" finished-at="2013-09-11T21:05:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInterpret_1 -->
+        <test-method status="PASS" signature="testInterpret_2()[pri:0, instance:com.tuna.nic.NICInterpreterTest@5823cfcf]" name="testInterpret_2" duration-ms="3" started-at="2013-09-11T21:05:14Z" finished-at="2013-09-11T21:05:14Z">
+          <exception class="com.tuna.nic.exception.InvalidNICException">
+            <message>
+              <![CDATA[Please re-check the first 2 digits.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.tuna.nic.exception.InvalidNICException: Please re-check the first 2 digits.
+	at com.tuna.nic.NICInterpreter.interpret(NICInterpreter.java:15)
+	at com.tuna.nic.NICInterpreterTest.testInterpret_2(NICInterpreterTest.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:109)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.tuna.nic.exception.InvalidNICException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInterpret_2 -->
+        <test-method status="PASS" signature="testInterpret_3()[pri:0, instance:com.tuna.nic.NICInterpreterTest@5823cfcf]" name="testInterpret_3" duration-ms="2" started-at="2013-09-11T21:05:14Z" finished-at="2013-09-11T21:05:14Z">
+          <exception class="com.tuna.nic.exception.InvalidNICException">
+            <message>
+              <![CDATA[Please re-check your NIC number.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.tuna.nic.exception.InvalidNICException: Please re-check your NIC number.
+	at com.tuna.nic.NICInterpreter.interpret(NICInterpreter.java:43)
+	at com.tuna.nic.NICInterpreterTest.testInterpret_3(NICInterpreterTest.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:109)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.tuna.nic.exception.InvalidNICException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInterpret_3 -->
+      </class> <!-- com.tuna.nic.NICInterpreterTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.tuna.nic.NICInterpreterTest -->
+</testng-results>
